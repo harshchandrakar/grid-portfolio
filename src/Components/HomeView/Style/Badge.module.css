@@ -1,0 +1,28 @@
+.Badge {
+  position: absolute;
+
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Badge img {
+  aspect-ratio: 1;
+  height: 200px;
+  border-radius: 50%;
+  animation: rotation 10s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Badge {
+    visibility: hidden;
+  }
+}

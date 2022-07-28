@@ -1,0 +1,43 @@
+.GridView {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+
+  grid-template-columns: 50vw auto;
+}
+.grid {
+  border: solid 0.1px gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+}
+
+.grid:hover {
+  background-color: #fff;
+  opacity: 0.3;
+}
+
+.header {
+  position: absolute;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  color: transparent;
+  z-index: 1;
+  -webkit-text-stroke: 2px #fff;
+}
+.frame {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0;
+}
+.frame:hover {
+  opacity: 1;
+}
+@media only screen and (max-width: 600px) {
+  .GridView {
+    grid-template-columns: auto;
+  }
+}
