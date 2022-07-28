@@ -18,17 +18,31 @@ function GridView() {
         <iframe
           className={classes.frame}
           scrolling="no"
-          src="http://localhost:3001/profile"
+          src="/profile"
           title="W3Schools Free Online Web Tutorials"
           onClick={() => {
             navigate("/profile");
           }}
         />
       </div>
-      <div className={`${classes.grid} ${classes.grid2}`}>
+      <div
+        className={`${classes.grid} ${classes.grid2}`}
+        onClick={() => {
+          navigate("/projects");
+        }}
+      >
         <div className={classes.header}>
           <h1>Projects</h1>
         </div>
+        <iframe
+          className={classes.frame}
+          scrolling="no"
+          src="/projects"
+          title="W3Schools Free Online Web Tutorials"
+          onClick={() => {
+            navigate("/projects");
+          }}
+        />
       </div>
       <div className={`${classes.grid} ${classes.grid3}`}>
         <div className={classes.header}>

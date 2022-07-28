@@ -1,0 +1,42 @@
+.Projects {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+}
+.Project {
+  min-height: 150px;
+  min-width: 200px;
+  padding: 1rem;
+  background: linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
+  border-radius: 40px 0 40px 0;
+  margin-bottom: 2rem;
+}
+.Project span {
+  color: rgb(204, 87, 87);
+  margin-left: 2rem;
+  font-size: 2rem;
+  text-shadow: #c2c2c2;
+}
+.Project a {
+  text-decoration: none;
+}
+.Project p {
+  margin: 0 2rem;
+  text-align: justify;
+  color: #c2c2c2;
+}
+.used {
+  color: #c2c2c2;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 1.3em;
+}
+.stack {
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+}
+.stack div {
+  padding-left: 1em;
+}

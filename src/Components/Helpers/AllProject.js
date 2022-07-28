@@ -1,0 +1,51 @@
+export const AllProject = [
+  {
+    name: "New Procase backend",
+    desc: "It is same as old Programmer procase project but this backend contains its own authentication apis and other APIs to for posts and User.",
+    link: "https://github.com/harshchandrakar/Procase--backend",
+    host: "",
+    stack: ["Node.Js", "EpressJs", "Multer", "AWS"],
+  },
+  {
+    name: "ICP-Motoko-Decentralised-web3.0-app",
+    desc: "It is a simple compound web app using Motoko and Reactjs . it was my first step towards web 3.0.",
+    link: "https://github.com/harshchandrakar/icp-motoko-web3.0",
+    host: "https://github.com/harshchandrakar/icp-motoko-web3.0",
+    stack: ["Motoko", "ReactJs", "ICP", "HTML", "CSS"],
+  },
+  {
+    name: "Amazon Selenium Automation",
+    desc: "Automated the process of getting the data from amazon and saving it to MongoDB . Using ASIN number and Country code provided in Csv file.",
+    link: "https://github.com/harshchandrakar/amazon-selenium-automation",
+    host: "https://github.com/harshchandrakar/amazon-selenium-automation",
+    stack: ["Python", "Selenium", "Pandas"],
+  },
+  {
+    name: "Know-vacs",
+    desc: "It  a web app where anyone in india can find nearby covid vaccination center and get details releted to vaccine from the date they choose to upcoming 7 days .",
+    link: "https://github.com/harshchandrakar/Know-Vacs",
+    host: "https://knowvacs.netlify.app/",
+    stack: ["CowinAPI", "ReactJs", "HTML", "CSS"],
+  },
+  {
+    name: "programmer procase",
+    desc: "Here is my project which can be used to showcase all projects in one place with all related links and the recruiter can find all of your posts just by searching your email. it is 2 step process",
+    link: "https://github.com/harshchandrakar/pro-gram-project",
+    host: "https://programmer-procase.web.app/",
+    stack: ["FireBase", "ReactJs", "HTML", "CSS"],
+  },
+  {
+    name: "react-portfolio",
+    desc: "This web app can be upgraded from out side since it is connected from database.i have used routes to bring collaboration form ",
+    link: "https://github.com/harshchandrakar/z-advanced-update",
+    host: "",
+    stack: ["ReactJs", "HTML", "CSS"],
+  },
+  {
+    name: "newsletter",
+    desc: "It is basically a web app used to so that people can signup for my newsletter and get articles and cheatsheets from me ",
+    link: "",
+    host: "http://magneto-newsletter.herokuapp.com",
+    stack: ["HTML", "CSS"],
+  },
+];
