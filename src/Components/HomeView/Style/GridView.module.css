@@ -37,7 +37,11 @@
   opacity: 1;
 }
 @media only screen and (max-width: 600px) {
-  .GridView {
+  /* .GridView {
     grid-template-columns: auto;
+  } */
+  .header {
+    font-size: 0.5rem;
+    -webkit-text-stroke: 0.5px #fff;
   }
 }
