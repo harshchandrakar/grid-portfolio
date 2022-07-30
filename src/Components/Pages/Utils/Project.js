@@ -4,9 +4,16 @@ import classes from "../Style/Projects.module.css";
 import Typewriter from "typewriter-effect";
 import Link from "@mui/material/Link";
 import Skill from "./Skill";
+import { useSpring, animated as A } from "react-spring";
 function Project(props) {
+  const animatedProps = useSpring({
+    from: { marginLeft: -200, opacity: 0 },
+    opacity: 1,
+    marginLeft: 0,
+    config: { mass: 1, tension: 140, friction: 42 },
+  });
   return (
-    <div className={classes.Project}>
+    <A.div className={classes.Project} style={{ ...animatedProps }}>
       <a href={props.host}>
         <Typewriter
           options={{
@@ -32,7 +39,7 @@ function Project(props) {
           <GitHub sx={{ ml: "2rem", color: "#c2c2c2", translateY: "50%" }} />
         </Link>
       </div>
-    </div>
+    </A.div>
   );
 }
 

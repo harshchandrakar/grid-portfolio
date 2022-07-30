@@ -10,10 +10,11 @@
   background: linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
   border-radius: 40px 0 40px 0;
   margin-bottom: 2rem;
+  transition: all 2s ease-out;
 }
 .Project span {
   color: rgb(204, 87, 87);
-  margin-left: 2rem;
+
   font-size: 2rem;
   text-shadow: #c2c2c2;
 }
@@ -39,4 +40,7 @@
 }
 .stack div {
   padding-left: 1em;
+}
+.Project Typewriter {
+  margin-left: 1em;
 }
