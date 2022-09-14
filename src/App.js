@@ -1,10 +1,20 @@
 import "./App.css";
 import Badge from "./Components/HomeView/Badge";
 import GridView from "./Components/HomeView/GridView";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useParams,
+  useLocation,
+} from "react-router-dom";
 import MyProfile from "./Components/Pages/MyProfile";
 import Projects from "./Components/Pages/Projects";
+import BackButton from "./Components/Helpers/BackButton";
 function App() {
+  const param = window.location.pathname;
+  console.log(param);
+
   return (
     <Router>
       <div className="App">
@@ -19,8 +29,24 @@ function App() {
               </>
             }
           />
-          <Route path="/profile" element={<MyProfile />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route
+            path="/profile"
+            element={
+              <>
+                <BackButton />
+                <MyProfile />
+              </>
+            }
+          />
+          <Route
+            path="/projects"
+            element={
+              <>
+                <BackButton />
+                <Projects />
+              </>
+            }
+          />
         </Routes>
       </div>
     </Router>

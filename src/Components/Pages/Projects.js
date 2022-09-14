@@ -5,8 +5,9 @@ import { AllProject } from "../Helpers/AllProject";
 function Projects() {
   return (
     <div className={classes.Projects}>
-      {AllProject.map((data) => (
+      {AllProject.map((data, id) => (
         <Project
+          key={id}
           name={data.name}
           desc={data.desc}
           link={data.link}

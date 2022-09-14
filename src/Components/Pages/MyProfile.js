@@ -19,7 +19,7 @@ function MyProfile() {
       <img className={classes.background} src={background} alt="background" />
       <img
         className={classes.profilePic}
-        src="https://media-exp1.licdn.com/dms/image/C4D03AQEkIXetgxJgEg/profile-displayphoto-shrink_800_800/0/1631780721049?e=1664409600&v=beta&t=GzcX74CxYKme4SyAHYR2zf3dS2VGizNkWicp3oDCNhQ"
+        src="https://codejackers.s3.ap-south-1.amazonaws.com/1663139189554.jpg"
         alt="background"
       />
       <div className={classes.Details}>
